@@ -18,7 +18,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@macrointell/todoagro-shared": "^0.0.258",
+    "@macrointell/todoagro-shared": "^0.1.21",
     "@types/node-cron": "^3.0.11",
     "axios": "^1.7.2",
     "celebrate": "^15.0.3",
