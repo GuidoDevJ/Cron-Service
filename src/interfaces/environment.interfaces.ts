@@ -9,4 +9,5 @@ export interface IEnvs {
     payment: string;
   };
   domain: string;
+  X_API_KEY_AC: string;
 }

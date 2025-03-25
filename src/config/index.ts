@@ -25,4 +25,5 @@ export default <IEnvs>{
     apiGateway: process.env.URL_GATEWAY,
     payment: process.env.URL_PAYMENT_SERVICE,
   },
+  X_API_KEY_AC: process.env.X_API_KEY_AC,
 };

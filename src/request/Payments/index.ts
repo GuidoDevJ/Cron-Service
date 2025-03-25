@@ -20,13 +20,12 @@ export class Payments {
     }
     return Payments.instance;
   }
-
   public async paymentAll() {
     try {
       const response = await this.httpClient.post(`${this.baseURL}pay-all`, {
         headers: {
           'Content-Type': 'application/json',
-          'x-api-key': 'ELCLIENTETIENEQUEUSARESTAKEY',
+          'x-api-key': config.X_API_KEY_AC,
         },
       });
       return response.data;
